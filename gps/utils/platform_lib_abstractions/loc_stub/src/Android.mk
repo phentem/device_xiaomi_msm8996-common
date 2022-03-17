@@ -26,6 +26,9 @@ LOCAL_LDFLAGS += -Wl,--export-dynamic
 ## Includes
 LOCAL_C_INCLUDES:= \
     $(LOCAL_PATH)/../include \
+    
+LOCAL_CFLAGS += $(GNSS_CFLAGS)
+include $(BUILD_SHARED_LIBRARY)
 
 LOCAL_MODULE := libloc_stub
 LOCAL_MODULE_PATH_32 := $(TARGET_OUT_VENDOR)/lib
