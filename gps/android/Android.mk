@@ -83,6 +83,9 @@ LOCAL_SHARED_LIBRARIES := \
     libbase \
     libutils \
 
+LOCAL_SHARED_LIBRARIES += \
+    libhidlbase \
+    android.hardware.gnss@1.0 \
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 include $(BUILD_EXECUTABLE)
