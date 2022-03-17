@@ -83,8 +83,6 @@ LOCAL_SHARED_LIBRARIES := \
     libbase \
     libutils \
 
-LOCAL_SHARED_LIBRARIES += \
-
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 include $(BUILD_EXECUTABLE)
