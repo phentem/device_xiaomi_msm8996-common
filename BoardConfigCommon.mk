@@ -16,6 +16,7 @@
 #
 
 BOARD_VENDOR := xiaomi
+BUILD_BROKEN_DUP_RULES := true
 
 VENDOR_PATH := device/xiaomi/msm8996-common
 
