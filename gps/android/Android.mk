@@ -33,7 +33,6 @@ LOCAL_HEADER_LIBRARIES := \
 
 LOCAL_SHARED_LIBRARIES := \
     liblog \
-    libhidlbase \
     libutils \
     android.hardware.gnss@1.0 \
 
