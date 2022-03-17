@@ -33,7 +33,9 @@ LOCAL_HEADER_LIBRARIES := \
 
 LOCAL_SHARED_LIBRARIES := \
     liblog \
+    libhidlbase \
     libutils \
+    android.hardware.gnss@1.0 \
 
 LOCAL_SHARED_LIBRARIES += \
     libloc_core \
@@ -78,7 +80,9 @@ LOCAL_SHARED_LIBRARIES := \
     liblog \
     libcutils \
     libdl \
+    libbase \
     libutils \
+
 
 LOCAL_CFLAGS += $(GNSS_CFLAGS)
 include $(BUILD_EXECUTABLE)
