@@ -136,6 +136,9 @@ DEVICE_MATRIX_FILE := $(VENDOR_PATH)/compatibility_matrix.xml
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(VENDOR_PATH)/lineagehw|**/*.java
 
+#roorFONTCUstom
+BUILD_BROKEN_DUP_RULES := true
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := f2fs
